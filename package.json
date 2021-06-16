@@ -1,0 +1,29 @@
+{
+  "name": "ViroARkitsDavid",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "prestart": "./node_modules/react-viro/bin/run_ngrok.sh",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "lottie-react-native": "^2.5.10",
+    "react": "16.3.1",
+    "react-native": "^0.55.1",
+    "react-native-oauth": "^2.1.18",
+    "react-native-router-flux": "^4.0.5",
+    "react-redux": "^5.1.0",
+    "react-viro": "2.11.0",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.6.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
